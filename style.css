@@ -336,7 +336,11 @@ body{
 	border-radius: 0 0 5px 5px;
 }
 
-
+.gallery-description{
+	font-size: 12px;
+	padding-left:12px;
+	padding-right: 12px;
+}
 .video {
   position: relative; 
 }
@@ -352,7 +356,7 @@ body{
     transform: translate(-50%, -50%);
     border: 1.5px solid #fff;
     border-radius: 15%;
-    padding: 10px 25px; 
+    padding: 15px 40px; 
     text-decoration: none;
 }
 .video .title {
@@ -374,10 +378,11 @@ body{
     left: 50%;
     color: #ffffff;
     width: 45%;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     margin-top: 25px;
     transform: translate(-50%, 0); 
+
 }
 .price {
   margin-top: 50px;
@@ -549,7 +554,7 @@ body{
   padding: 10px 25px;
   margin: 30px 0;
   box-shadow: 0 0 0 3px #fff;
-  border-radius: 10px;
+  border-radius: 5px;
   text-decoration: none;
 }
 .download .download-button .btn-download:hover {
@@ -626,9 +631,10 @@ body{
   justify-content: space-between;
   padding: 50px 100px;
   font-size: 12px;
-  color: #ffffff;
+  color: #888888;
   background-color: #414042;
 }
 .footer .footer-link {
-  color: #ffffff;
+  color: #888888;
+  text-decoration: none;
 }
